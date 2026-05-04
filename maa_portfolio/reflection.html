@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reflection | Mariana Avila Ambriz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Mariana Avila Ambriz</a>
+
+    <nav class="nav">
+      <a href="index.html">Home</a>
+
+      <div class="dropdown">
+        <a href="about_me.html" class="dropbtn">About Me ▾</a>
+        <div class="dropdown-content">
+          <a href="projects.html">Projects</a>
+          <a href="certificates.html">Certificates</a>
+        </div>
+      </div>
+
+      <a href="course_description.html">Course Description</a>
+      <a href="evaluation.html">Evaluation</a>
+      <a href="contact_me.html">Contact Me</a>
+      <a class="active" href="reflection.html">Reflection</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>Reflection</h1>
+
+      <p>
+        Creating this web-based educational portfolio allowed me to showcase my skills in web development,
+        organization, and professional presentation. The goal was to design a clean, easy-to-navigate site
+        that highlights my projects, certifications, and growth as a Software Development student.
+      </p>
+
+      <p>
+        Throughout this project, I strengthened my understanding of HTML and CSS by building multi-page layouts, 
+        implementing responsive design, and maintaining consistent styling across all pages. 
+        For example, I used reusable CSS classes to ensure visual consistency, 
+        which improved both usability and overall design quality
+      </p>
+
+      <p>
+        One of the most valuable parts of this process was thinking from an employer’s perspective.
+        I focused on presenting my projects clearly and professionally. In the future, I plan to
+        continue improving this portfolio by adding more visuals, refining design elements,
+        and integrating more advanced features.
+      </p>
+
+      <p>
+        Overall, this portfolio reflects not only my technical skills, but also my growth,
+        persistence, and commitment to continuous learning.
+      </p>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Mariana Avila Ambriz • Built with HTML/CSS</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
