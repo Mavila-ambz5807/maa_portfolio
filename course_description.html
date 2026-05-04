@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Course Descriptions | Mariana Avila Ambriz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+<a class="logo" href="index.html">Mariana Avila Ambriz</a>
+
+<nav class="nav">
+<a href="index.html">Home</a>
+
+<div class="dropdown">
+<a href="about_me.html" class="dropbtn">About Me ▾</a>
+<div class="dropdown-content">
+<a href="projects.html">Projects</a>
+<a href="certificates.html">Certificates</a>
+</div>
+</div>
+
+<a class="active" href="course_description.html">Course Description</a>
+<a href="evaluation.html">Evaluation</a>
+<a href="contact_me.html">Contact Me</a>
+<a href="reflection.html">Reflection</a>
+</nav>
+</header>
+
+<main class="container">
+
+<section class="page-hero">
+<h1>Course Descriptions</h1>
+
+<p>
+The Software Development program at Wayne Community College provides us students
+with a strong foundation in programming, web development, database management,
+and computer systems. The courses listed below contributed to the development
+of technical skills used throughout this portfolio.
+</p>
+
+</section>
+
+<!-- COURSE TABLE -->
+<section class="card">
+
+<h2>Software Development Courses</h2>
+
+<table class="course-table">
+
+<thead>
+<tr>
+<th>Course</th>
+<th>Title</th>
+<th>Concepts Covered</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>CSC 151/251</td>
+<td>Java and Advanced Java Programming</td>
+<td>Programming fundamentals, variables, loops, conditional statements, problem solving, 
+    Object-oriented programming, classes, methods, GUI applications</td>
+</tr>
+
+<tr>
+<td>CSC 121</td>
+<td>Python Programming</td>
+<td>Python syntax, functions, file handling, automation</td>
+</tr>
+
+<tr>
+<td>WEB 182</td>
+<td>PHP Programming</td>
+<td>HTML, CSS, PHP,  website structure, responsive design</td>
+</tr>
+
+<tr>
+<td>CTS 120</td>
+<td>Hardware/Software Support</td>
+<td>Computer hardware, operating systems, troubleshooting</td>
+</tr>
+
+<tr>
+<td>CTI 110</td>
+<td>IT Fundamentals</td>
+<td>Introduction to IT concepts, networking, security</td>
+</tr>
+
+<tr>
+<td>DBA 120</td>
+<td>Database Programming I</td>
+<td>SQL, database design, queries, data relationships</td>
+</tr>
+
+<tr>
+<td>NOS 120</td>
+<td>Linux Single User</td>
+<td>Linux system navigation, file management, access permissions, command-line tools, shell environments, pattern matching, 
+    I/O redirection, networking, and system customization</td>
+</tr>
+
+<tr>
+<td>WEB 151</td>
+<td>Mobile Application Development</td>
+<td>Mobile app design, development frameworks, user interface design</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+<!-- SAMPLE COURSE WORK -->
+<section class="card">
+
+<h2>Sample Course Work</h2>
+
+<div class="grid">
+
+<article class="project">
+<h3>Java Coin Toss Program</h3>
+
+<p><strong>Course:</strong> CSC 251 – Advanced Java Programming</p>
+
+<p><strong>Time to Complete:</strong> Approximately 2 hours</p>
+
+<p>
+This project demonstrates the use of Java programming concepts such as
+random number generation and program logic. The program simulates a
+coin toss and displays the result to the user.
+</p>
+
+<p>
+This example was included in the portfolio because it demonstrates an
+understanding of programming fundamentals and problem-solving skills
+developed during the course.
+</p>
+
+</article>
+
+<article class="project">
+
+<h3>Python Employee Management System</h3>
+
+<p><strong>Course:</strong> CSC 121 – Python Programming</p>
+
+<p><strong>Time to Complete:</strong> Approximately 4 hours</p>
+
+<p>
+This Python program allows users to manage employee information by
+adding, updating, searching, and deleting employee records stored in
+a JSON file.
+</p>
+
+<p>
+This project demonstrates the ability to structure programs, work with
+data storage, and implement user interaction through command-line input.
+</p>
+
+</article>
+
+<article class="project">
+
+<h3>Tri and Succeed Sports Website</h3>
+
+<p><strong>Course:</strong> WEB 182 – PHP Programming</p>
+
+<p><strong>Time to Complete:</strong> Approximately 6 hours</p>
+
+<p>
+This project involved building a multi-page website using HTML and CSS.
+The site includes navigation links, structured content, and styled
+layouts for pages related to running, cycling, and swimming.
+</p>
+
+<p>
+This project was selected for the portfolio because it demonstrates
+skills in webpage structure, navigation design, and visual presentation.
+</p>
+
+</article>
+
+</div>
+
+</section>
+
+</main>
+
+<footer class="footer">
+<p>© <span id="year"></span> Mariana Avila Ambriz • Built with HTML/CSS</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

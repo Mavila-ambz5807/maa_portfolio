@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Me | Mariana Avila Ambriz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Mariana Avila Ambriz</a>
+
+    <nav class="nav">
+      <a href="index.html">Home</a>
+
+      <div class="dropdown">
+        <a href="about_me.html" class="dropbtn">About Me ▾</a>
+        <div class="dropdown-content">
+          <a href="projects.html">Projects</a>
+          <a href="certificates.html">Certificates</a>
+        </div>
+      </div>
+
+      <a href="course_description.html">Course Description</a>
+      <a href="evaluation.html">Evaluation</a>
+      <a class="active" href="contact_me.html">Contact Me</a>
+      <a href="reflection.html">Reflection</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>Contact Me</h1>
+      <p>If you would like to connect, collaborate, or discuss opportunities, feel free to send a message below.</p>
+
+      <div class="contact-layout">
+
+        <!-- Contact Form -->
+        <form class="contact-form" action="#" method="post">
+
+          <label for="fullName">Full Name</label>
+          <input id="fullName" name="fullName" type="text" placeholder="Your full name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+          <label for="phone">Phone Number</label>
+          <input id="phone" name="phone" type="tel" placeholder="(555) 555-5555">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="7" placeholder="Write your message..." required></textarea>
+
+          <button class="btn" type="submit">Send</button>
+        </form>
+
+        <!-- Contact Info Side Panel -->
+        <aside class="contact-side">
+          <h2>Contact Information</h2>
+
+          <p>📍 Goldsboro, NC</p>
+
+          <p>
+            📧 
+            <a href="mailto:maaviambz12.29@gmail.com">
+              maaviambz12.29@gmail.com
+            </a>
+          </p>
+
+          <p>
+            📱 
+            <a href="tel:+19193306430">
+              (919) 330-6430
+            </a>
+          </p>
+
+          <h2>Social</h2>
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Mariana Avila Ambriz • Built with HTML/CSS</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

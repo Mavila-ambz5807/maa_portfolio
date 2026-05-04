@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mariana Avila Ambriz | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="index.html">Mariana Avila Ambriz</a>
+
+    <nav class="nav">
+      <a class="active" href="index.html">Home</a>
+
+      <div class="dropdown">
+        <a href="about_me.html" class="dropbtn">About Me ▾</a>
+        <div class="dropdown-content">
+          <a href="projects.html">Projects</a>
+          <a href="certificates.html">Certificates</a>
+        </div>
+      </div>
+
+      <a href="course_description.html">Course Description</a>
+      <a href="evaluation.html">Evaluation</a>
+      <a href="contact_me.html">Contact Me</a>
+      <a href="reflection.html">Reflection</a>
+    </nav>
+  </header>
+
+ <main class="home-page">
+
+  <!-- HERO -->
+  <section class="hero-card">
+    <div class="hero-text">
+      <p class="eyebrow">Software Development Portfolio</p>
+      <h1>Mariana Avila Ambriz</h1>
+      <h2>Software Development Student | Web, Python, Java, and Database Projects</h2>
+      <p class="hero-description">
+        I build clean, user-focused projects in web development,
+        programming, and databases while continuing to grow my technical skills.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn" href="projects.html">View Projects</a>
+        <a class="btn btn-outline" href="contact_me.html">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-image-wrap">
+      <div class="hero-image-bg"></div>
+      <img src="images.me.png" alt="Photo of Mariana Avila Ambriz" class="profile-pic-large">
+    </div>
+  </section>
+
+  <!-- SUMMARY -->
+  <section class="content-card summary-card">
+    <h2>Professional Summary</h2>
+    <p class="center-text">
+      My work includes projects in Java, Python, HTML/CSS, and database-driven development.
+      I enjoy building organized, visually clean, and functional solutions while continuing
+      to expand my skills in software and web development.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="content-card">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-box">Java</div>
+      <div class="skill-box">Python</div>
+      <div class="skill-box">HTML5</div>
+      <div class="skill-box">CSS3</div>
+      <div class="skill-box">MySQL</div>
+      <div class="skill-box">AWS</div>
+      <div class="skill-box">Git / VS Code</div>
+      <div class="skill-box">Responsive Design</div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECTS -->
+  <section class="content-card">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+      <article class="project-card">
+        <h3>Python Projects</h3>
+        <p>
+          This project demonstrates the use of Python for managing structured data
+          and applying logic, as it is a simple, readable language well suited for
+          data handling and file management.
+        </p>
+        <p><strong>Skills:</strong> Python, JSON, file handling, logic</p>
+        <a class="link" href="projects.html">See details →</a>
+      </article>
+
+      <article class="project-card">
+        <h3>Java Projects</h3>
+        <p>
+          This project highlights the use of Java for building an interactive,
+          event-driven application, as it provides strong support for
+          object-oriented programming and graphical user interfaces.
+        </p>
+        <p><strong>Skills:</strong> Java, GUI programming, program logic</p>
+        <a class="link" href="projects.html">See details →</a>
+      </article>
+
+      <article class="project-card">
+        <h3>HTML Projects</h3>
+        <p>
+          This project showcases the use of HTML for structuring a multi-page
+          website, as it serves as the foundation of web development and allows
+          for organized content and navigation.
+        </p>
+        <p><strong>Skills:</strong> HTML5, CSS3, layout, navigation</p>
+        <a class="link" href="projects.html">See details →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- BOTTOM ROW -->
+  <section class="bottom-grid">
+    <div class="content-card quote-card">
+      <h2>Personal Inspiration</h2>
+      <blockquote class="quote">
+        “The best engineers are not the ones who code the fastest,
+        but the ones who think the deepest.”
+        <cite>— Raymond Fu, TEDxCSTU</cite>
+      </blockquote>
+    </div>
+
+    <div class="content-card cta-card">
+      <h2>Let’s Connect</h2>
+      <p>
+        Thank you for visiting my portfolio. Please explore my projects,
+        certifications, and coursework, or reach out through the contact page.
+      </p>
+      <a class="btn" href="contact_me.html">Get in Touch</a>
+    </div>
+  </section>
+
+</main>
+<footer class="footer">
+    <p>© <span id="year"></span> Mariana Avila Ambriz • Portfolio</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
